@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [0.4.7+1] - 2024-05-26
+
+- Update fixes
+
 ## [0.4.7] - 2022-01-22
 
 - Bug fixes
