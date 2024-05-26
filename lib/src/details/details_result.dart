@@ -1,9 +1,9 @@
-import 'package:google_places/src/models/address_component.dart';
-import 'package:google_places/src/models/geometry.dart';
-import 'package:google_places/src/models/opening_hours.dart';
-import 'package:google_places/src/models/photo.dart';
-import 'package:google_places/src/models/plus_code.dart';
-import 'package:google_places/src/models/review.dart';
+import 'package:google_places_location/src/models/address_component.dart';
+import 'package:google_places_location/src/models/geometry.dart';
+import 'package:google_places_location/src/models/opening_hours.dart';
+import 'package:google_places_location/src/models/photo.dart';
+import 'package:google_places_location/src/models/plus_code.dart';
+import 'package:google_places_location/src/models/review.dart';
 
 class DetailsResult {
   /// [addressComponents] is an array containing the separate components applicable to this address.

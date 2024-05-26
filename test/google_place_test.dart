@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_places/google_places.dart';
+import 'package:google_places_location/google_places.dart';
 
 void main() {
   String apiKey = "Your-Key";

@@ -1,5 +1,5 @@
-import 'package:google_places/google_places.dart';
-import 'package:google_places/src/utils/network_utility.dart';
+import 'package:google_places_location/google_places.dart';
+import 'package:google_places_location/src/utils/network_utility.dart';
 
 class Autocomplete {
   static final _authority = 'maps.googleapis.com';

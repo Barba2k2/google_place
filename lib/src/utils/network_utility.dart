@@ -1,4 +1,4 @@
-import 'package:google_places/google_places.dart';
+import 'package:google_places_location/google_places.dart';
 import 'package:http/http.dart' as http;
 
 /// The Network Utility

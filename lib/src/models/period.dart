@@ -1,5 +1,5 @@
-import 'package:google_places/src/models/close.dart';
-import 'package:google_places/src/models/open.dart';
+import 'package:google_places_location/src/models/close.dart';
+import 'package:google_places_location/src/models/open.dart';
 
 class Period {
   /// [close] may contain a pair of day and time objects describing when the place closes.

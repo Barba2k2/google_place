@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:google_places/google_places.dart';
+import 'package:google_places_location/google_places.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -10,7 +10,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.3
   flutter_dotenv: ^2.1.0
-  google_places:
+  google_places_location:
     path: ../
 
 dev_dependencies:
