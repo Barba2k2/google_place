@@ -1,4 +1,4 @@
-# google_place
+# google_places_location
 
 ## Discontinued
 
