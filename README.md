@@ -39,21 +39,21 @@ To use this plugin, add **_google_place_** as a [dependency in your pubspec.yaml
 - Place Autocomplete
 
 ```dart
-var googlePlace = GooglePlace("Your-Key");
+var googlePlace = GooglePlaces("Your-Key");
 var result = await googlePlace.autocomplete.get("1600 Amphitheatre");
 ```
 
 - Place Query Autocomplete
 
 ```dart
-var googlePlace = GooglePlace("Your-Key");
+var googlePlace = GooglePlaces("Your-Key");
 var result = await googlePlace.queryAutocomplete.get("pizza near sydne");
 ```
 
 - Place Photos
 
 ```dart
-var googlePlace = GooglePlace("Your-Key");
+var googlePlace = GooglePlaces("Your-Key");
 Uint8List result = await googlePlace.photos.get(
  "CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU", null, 400);
 ```
@@ -61,7 +61,7 @@ Uint8List result = await googlePlace.photos.get(
 - Place Details
 
 ```dart
-var googlePlace = GooglePlace("Your-Key");
+var googlePlace = GooglePlaces("Your-Key");
 Uint8List result = await googlePlace.details.get("ChIJN1t_tDeuEmsRUsoyG83frY4",
         fields: "name,rating,formatted_phone_number")
 ```
@@ -71,7 +71,7 @@ Uint8List result = await googlePlace.details.get("ChIJN1t_tDeuEmsRUsoyG83frY4",
   - Find Place
 
     ```dart
-    var googlePlace = GooglePlace("Your-Key");
+    var googlePlace = GooglePlaces("Your-Key");
     var result = await googlePlace.search.getFindPlace(
         "Museum of Contemporary Art Australia", InputType.TextQuery);
     ```
@@ -79,7 +79,7 @@ Uint8List result = await googlePlace.details.get("ChIJN1t_tDeuEmsRUsoyG83frY4",
   - Nearby Search
 
     ```dart
-    var googlePlace = GooglePlace("Your-Key");
+    var googlePlace = GooglePlaces("Your-Key");
     var result = await googlePlace.search.getNearBySearch(
         Location(lat: -33.8670522, lng: 151.1957362), 1500,
         type: "restaurant", keyword: "cruise");
@@ -88,7 +88,7 @@ Uint8List result = await googlePlace.details.get("ChIJN1t_tDeuEmsRUsoyG83frY4",
   - Text Search
 
     ```dart
-    var googlePlace = GooglePlace("Your-Key");
+    var googlePlace = GooglePlaces("Your-Key");
     var result = await googlePlace.search.getTextSearch("restaurants in Sydney");
     ```
 
@@ -105,7 +105,7 @@ final headers = <String, String>{
         'x-android-cert': Env().ANDROID_SIGNING_KEY_SHA1, // signing key used to build/publish the app
       }
     };
-var googlePlace = GooglePlace("Your-Key", headers: headers);
+var googlePlace = GooglePlaces("Your-Key", headers: headers);
 ```
 
 ## Proxy URL for Web
@@ -113,5 +113,5 @@ var googlePlace = GooglePlace("Your-Key", headers: headers);
 Now is possible to set proxy url for web. **proxyUrl** can be formatted as [https:// || http://]host[:<port>][/<path>][?<url-param-name>=]
 
 ```dart
-var googlePlace = GooglePlace("Your-Key", proxyUrl: 'https://localhost:5000');
+var googlePlace = GooglePlaces("Your-Key", proxyUrl: 'https://localhost:5000');
 ```
