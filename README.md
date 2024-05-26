@@ -1,9 +1,5 @@
 # google_places_location
 
-## Discontinued
-
-### This project is no longer maintained, and will not receive further updates.
-
 
 
 
